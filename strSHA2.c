@@ -1,5 +1,4 @@
-#include "header.h"
-
+#include "strSHA2.h"
 /*
     CITS2002 students - this file provides an implementation of the
     function with this protoype:
@@ -332,9 +331,7 @@ char *strSHA2(char *filename)
 	    s += 2;
 	}
 	*s	= '\0';
-    printf("%s\n", str);
 	return strdup(str);
     }
     return NULL;
-
 }
